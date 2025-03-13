@@ -1,1 +1,17 @@
+Date: 12/03/2025
+Practical no: 01
+Problem specification: Print statements
 
+Implementation: 
+class EX01{
+	public static void main(String[] args){
+		System.out.println("My First program");
+		System.out.println("Hello Java Developers!!");
+	}
+}
+
+Output:
+My First program
+Hello Java Developers!!
+
+Conclution: Learnd about the basic structure of a java program

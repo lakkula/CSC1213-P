@@ -1,1 +1,72 @@
+Date: 12/03/2025
+Practical no: 01
+Problem specification: Identify the operators
 
+Implementation: 
+class EX08{
+	public static void main(String[] args){
+		int X = 75;
+		int Y = 20;
+		boolean isTrue = true;
+		System.out.println("X: " + X);
+		System.out.println("Y: " + Y);
+		System.out.println("Bolean Value: " + isTrue);
+		//Unary operators
+		System.out.println("Unary plus of X: " + (+X));
+		System.out.println("Unary minus of X: " + (-X));
+		System.out.println("Increment of X: " + (++X));
+		System.out.println("Decrement of Y: " + (--Y));
+		System.out.println("Logical complement: " + (!isTrue));
+		System.out.println("Bitwise complement: " + (~Y));
+		//Logical operators
+		System.out.println("Logical AND(X<100 && Y>10): " + (X<100 && Y>10));
+		System.out.println("Logical OR(X>90 || Y<5): " + (X>90 || Y<5));
+		System.out.println("Logical NOT(!(X<100 && Y>10)): " +!(X<100 && Y>10));
+		//Relational operators
+		System.out.println("X == Y: " + (X == Y));
+		System.out.println("X != Y: " + (X != Y));
+		System.out.println("X > Y: " + (X > Y));
+		System.out.println("X < Y: " + (X < Y));
+		System.out.println("X >= Y: " + (X >= Y));
+		System.out.println("X <= Y: " + (X <= Y));
+		//Assignment operators
+		System.out.println("Value of X: " + X);
+		System.out.println("X += 5: " + (X += 5));
+		System.out.println("X -= 2: " + (X -= 2));
+		System.out.println("X *= 5: " + (X *= 5));
+		System.out.println("X /= 10: " + (X /= 10));
+		System.out.println("X %= 7: " + (X += 7));
+		//Ternary operators
+		int max = (X>Y) ? X : Y;
+		System.out.println("The maximum value: " + max);
+	}
+}
+
+Output:
+X: 75
+Y: 20
+Bolean Value: true
+Unary plus of X: 75
+Unary minus of X: -75
+Increment of X: 76
+Decrement of Y: 19
+Logical complement: false
+Bitwise complement: -20
+Logical AND(X<100 && Y>10): true
+Logical OR(X>90 || Y<5): false
+Logical NOT(!(X<100 && Y>10)): false
+X == Y: false
+X != Y: true
+X > Y: true
+X < Y: false
+X >= Y: true
+X <= Y: false
+Value of X: 76
+X += 5: 81
+X -= 2: 79
+X *= 5: 395
+X /= 10: 39
+X %= 7: 46
+The maximum value: 46
+
+Conclution: Learned about unary, logical, relational, assignment, ternary operators

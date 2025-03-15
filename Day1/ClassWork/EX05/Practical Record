@@ -1,1 +1,17 @@
+Date: 12/03/2025
+Practical no: 05
+Problem specification: Print your details
 
+Implementation: 
+class EX05{
+	public static void main(String[] args){
+		System.out.println("Name: Kulani \nLast Name: Lakshika \nAddress: Wilbagedara,Bandarakoswatta");
+	}
+}
+
+Output:
+Name: Kulani
+Last Name: Lakshika
+Address: Wilbagedara,Bandarakoswatta
+
+Conclution: Learnd about the usage of "\n"

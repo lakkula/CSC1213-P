@@ -1,1 +1,25 @@
+Date: 12/03/2025
+Practical no: 06
+Problem specification: Do the addition, subtraction, division, multiplication and modulas for 2 numbers
 
+Implementation: 
+class EX06{
+	public static void main(String[] args){
+		int num1 = 55;
+		int num2 = 20;
+		
+		System.out.println("Addition is " + (num1+num2));
+		System.out.println("Substraction is " + (num1-num2));
+		System.out.println("Multiplication is " + (num1*num2));
+		System.out.println("Division is " + ((double)num1/(double)num2));
+		System.out.println("Mode is " + (num1%num2));
+	}
+}
+Output:
+Addition is 75
+Substraction is 35
+Multiplication is 1100
+Division is 2.75
+Mode is 15
+
+Conclution: +, -, *, /, % are arithmatic operators
